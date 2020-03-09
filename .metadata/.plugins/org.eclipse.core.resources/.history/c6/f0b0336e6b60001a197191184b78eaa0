@@ -1,0 +1,25 @@
+package nitikesh;
+
+import java.util.Scanner;
+
+public class F_5harmonicNumber 
+{
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner (System.in);
+		System.out.println("Enter a num for harmonic :");
+		int num=sc.nextInt();
+		System.out.println();
+		double result=0;
+		double h=1;
+		while(h==num)
+		{
+			result+=(1/h);
+			System.out.print("1/"+h+"+ ");
+			h++;
+		}
+		
+		System.out.print("   ="+result);
+		
+	}
+}

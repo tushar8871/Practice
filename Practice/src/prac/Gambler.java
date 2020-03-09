@@ -18,6 +18,7 @@ public class Gambler {
 		Random ra=new Random();
 		int bet;
 		int temp=goal;
+		int temp1=stack;
 		
 		for(int i=0;i<n;i++)
 		{
@@ -26,11 +27,11 @@ public class Gambler {
 				System.out.println(bet);
 				if(bet==0)
 				{
-				stack=stack-(temp/2);
+				stack=stack-(temp1/2);
 				}
 				else
 				{
-				stack=stack+(bet*temp/2);
+				stack=stack+(temp1/2);
 				}
 		
 		}
@@ -42,6 +43,9 @@ public class Gambler {
 		else if(goal<=stack)
 		{
 			System.out.println("Gambler has won  ! And he has $"+(stack));
+		}
+		else {
+			System.out.println("Gambler has won ! "+stack);
 		}
 		
 

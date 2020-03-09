@@ -1,0 +1,16 @@
+package prac;
+
+import java.util.Scanner;
+
+public class Gambler {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		int stack,goal,n;
+		System.out.println("Enter number of times to play : ");
+		n=sc.nextInt();
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package prac;
+
+import java.util.Scanner;
+
+public class couponNumber {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter number to generate coupon : ");
+		int n=sc.nextInt();
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package nitikesh;
+
+import java.util.Scanner;
+
+public class F_1primeFactors 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a num :");
+		int num=sc.nextInt();
+		int count=0;
+		int i,n=0;
+		System.out.println("Prime factors are: ");
+	
+		while(num!=0)
+		{
+			if(num%i==0)
+			{
+				count++;
+				break;
+			}
+		}
+		if(count==2 )
+		{
+			
+			System.out.println(i +" ");
+			count=0;
+		}
+		
+	}
+
+}

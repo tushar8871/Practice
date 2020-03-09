@@ -1,0 +1,35 @@
+package prac;
+
+import java.util.Scanner;
+
+public class Gambler {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		int stack,goal,n;
+		System.out.println("Enter number of times to play : ");
+		n=sc.nextInt();
+		System.out.println("Enter stack : ");
+		stack=sc.nextInt();
+		System.out.println("Enter goal : ");
+		goal=sc.nextInt();
+		
+		int bet=1;
+		
+		for(int i=0;i<n;i++)
+		{
+			if(stack==0)
+			{
+				System.out.println("Gambler has lost ! ");
+			}
+			else if(goal==stack)
+			{
+				System.out.println("Gambler has won ");
+			}
+		}
+		
+
+	}
+
+}

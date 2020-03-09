@@ -1,0 +1,13 @@
+package prac;
+
+import java.util.Scanner;
+
+public class Gambler {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+
+	}
+
+}
